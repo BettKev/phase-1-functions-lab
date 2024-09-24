@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 0,
+    "passes": 6,
     "pending": 0,
-    "failures": 13,
-    "start": "2024-09-24T05:50:35.868Z",
-    "end": "2024-09-24T05:50:36.704Z",
-    "duration": 836
+    "failures": 7,
+    "start": "2024-09-24T07:57:49.463Z",
+    "end": "2024-09-24T07:57:50.585Z",
+    "duration": 1122
   },
   "tests": [
     {
@@ -15,60 +15,42 @@
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:6:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInBlocks is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInBlocks is not defined"
-      }
+      "err": {}
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInBlocks is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:24:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:28:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the distance travelled in feet",
@@ -133,7 +115,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:61:7)\n    at processImmediate (node:internal/timers:466:21)",
@@ -144,66 +126,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "returns a distance in blocks",
-      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:6:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInBlocks is not defined"
-      }
-    },
-    {
-      "title": "returns a distance in blocks",
-      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInBlocks is not defined"
-      }
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInBlocks is not defined"
-      }
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInFeet is not defined"
-      }
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:24:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInFeet is not defined"
-      }
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:28:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "distanceFromHqInFeet is not defined"
-      }
-    },
-    {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
       "duration": 0,
@@ -266,7 +188,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:61:7)\n    at processImmediate (node:internal/timers:466:21)",
@@ -274,5 +196,48 @@
       }
     }
   ],
-  "passes": []
+  "passes": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
